@@ -1,16 +1,16 @@
 import React from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
-import UserList from './UserList';
+import IlmuanFav from './IlmuanFav';
 
 const queryClient = new QueryClient();
 
 export default {
-  title: 'Components/UserList',
-  component: UserList,
+  title: 'Components/IlmuanFav',
+  component: IlmuanFav,
 };
 
 export const Default = () => (
   <QueryClientProvider client={queryClient}>
-    <UserList />
+    <IlmuanFav />
   </QueryClientProvider>
 );

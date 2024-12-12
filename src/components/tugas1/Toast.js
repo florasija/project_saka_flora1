@@ -5,7 +5,7 @@ export const Toast = ({ message, type = "info", onClose }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       onClose();
-    }, 3000); // Toast akan otomatis hilang setelah 3 detik
+    }, 3000);
     return () => clearTimeout(timer);
   }, [onClose]);
 

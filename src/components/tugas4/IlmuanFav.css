@@ -1,0 +1,19 @@
+.person-list {
+  list-style: none;
+  padding: 0;
+}
+
+.person-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.loading {
+  color: blue;
+}
+
+.error {
+  color: red;
+}
